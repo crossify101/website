@@ -19,7 +19,7 @@ Crosswords that mix **picture clues** and **knowledge questions**. No ads. No in
 
 <br/>
 
-<a href="https://apps.apple.com/app/crossify101/id0000000000">
+<a href="https://apps.apple.com/app/crossify101/id6771224286">
   <img src="https://img.shields.io/badge/Download%20on%20the-App%20Store-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download on the App Store" height="44" />
 </a>
 &nbsp;
@@ -116,7 +116,7 @@ Read the full [Privacy Policy](privacy.html).
 
 <div align="center">
 
-<a href="https://apps.apple.com/app/crossify101/id0000000000">
+<a href="https://apps.apple.com/app/crossify101/id6771224286">
   <img src="https://img.shields.io/badge/Download%20on%20the-App%20Store-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download on the App Store" height="44" />
 </a>
 &nbsp;
@@ -126,7 +126,7 @@ Read the full [Privacy Policy](privacy.html).
 
 </div>
 
-> **Note:** the App Store link above is a placeholder (`id0000000000`). Replace it with the real listing URL once the app is live.
+> **Note:** the App Store link points to the real listing (App Apple ID `6771224286`). It will go live once Apple approves the app.
 
 ---
 
