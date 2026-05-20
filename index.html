@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crossify101 — Offline word puzzles in 12 languages</title>
+  <meta name="description" content="Crossify101 is an offline crossword game that grows your vocabulary and cultural knowledge through picture clues and knowledge questions. 12 languages, 24 packs each. No ads, no internet, no tracking." />
+  <meta name="theme-color" content="#E07A5F" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Crossify101 — Offline word puzzles in 12 languages" />
+  <meta property="og:description" content="Grow your vocabulary and cultural knowledge with picture-and-question crosswords. 12 languages. No ads, no tracking." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="screenshots/2-play.jpeg" />
+
+  <link rel="icon" type="image/svg+xml" href="logo.svg" />
+  <link rel="apple-touch-icon" href="logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ───────── Header ───────── -->
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Crossify101 home">
+      <img src="logo.svg" alt="" class="brand__mark" width="40" height="40" />
+      <span class="brand__name">Crossify<span class="brand__accent">101</span></span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#screens">Screenshots</a></li>
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#privacy">Privacy</a></li>
+        <li><a href="#get" class="nav__cta">Get the app</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ───────── Hero ───────── -->
+  <section class="hero">
+    <div class="hero__copy">
+      <span class="pill">⚡ Vocabulary &amp; culture, offline</span>
+      <h1 class="hero__title">Crossify<span class="brand__accent">101</span></h1>
+      <p class="hero__tagline">
+        An educational journey to grow your vocabulary and broaden your cultural horizons —
+        crosswords that mix <strong>picture clues</strong> and <strong>knowledge questions</strong>,
+        in <strong>12 languages</strong>. No ads. No internet. No tracking.
+      </p>
+
+      <div class="store-badges" id="get-top">
+        <!--
+          APP STORE: replace the href below with your real listing URL once the app
+          is live, e.g. https://apps.apple.com/app/crossify101/id0000000000
+        -->
+        <a class="badge badge--apple" href="https://apps.apple.com/app/crossify101/id0000000000"
+           target="_blank" rel="noopener" aria-label="Download on the App Store">
+          <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+            <path fill="currentColor" d="M16.365 1.43c0 1.14-.42 2.21-1.18 3.02-.83.9-2.18 1.6-3.32 1.5-.14-1.1.45-2.27 1.16-3.04.8-.86 2.2-1.5 3.34-1.48zM20.6 17.06c-.55 1.27-.82 1.84-1.53 2.96-.99 1.56-2.39 3.5-4.12 3.51-1.54.02-1.93-1-4.02-.99-2.09.01-2.52 1.01-4.06.99-1.73-.02-3.05-1.77-4.04-3.33C-.07 16.04-.3 10.9 1.41 8.18c1.06-1.69 2.73-2.68 4.3-2.68 1.6 0 2.61 1.01 3.93 1.01 1.28 0 2.06-1.01 3.91-1.01 1.4 0 2.88.76 3.94 2.08-3.46 1.9-2.9 6.84.11 8.48z"/>
+          </svg>
+          <span class="badge__text"><small>Download on the</small><strong>App Store</strong></span>
+        </a>
+
+        <!-- GOOGLE PLAY: Android is in progress -->
+        <span class="badge badge--play badge--soon" role="img" aria-label="Coming soon on Google Play">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+            <path fill="#EA4335" d="M3.6 2.3 13 11.7l2.6-2.6L4.9 1.7c-.5-.3-1-.1-1.3.6z"/>
+            <path fill="#34A853" d="M3.6 21.7c.3.7.8.9 1.3.6l10.7-7.4L13 12.3z"/>
+            <path fill="#4285F4" d="M19.6 10.1 16.7 8.4 13.8 11.3l2.9 2.9 2.9-1.7c1-.6 1-1.8 0-2.4z"/>
+            <path fill="#FBBC04" d="M3.6 2.3c-.1.2-.1.4-.1.7v18c0 .3 0 .5.1.7L13 12.3 3.6 2.3z"/>
+          </svg>
+          <span class="badge__text"><small>Coming soon on</small><strong>Google Play</strong></span>
+        </span>
+      </div>
+
+      <p class="hero__note">Free • 4+ • Works fully offline</p>
+    </div>
+
+    <div class="hero__device">
+      <div class="device">
+        <img src="screenshots/2-play.jpeg" alt="Crossify101 home screen with the Play button" loading="eager" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── Features ───────── -->
+  <section class="section" id="features">
+    <h2 class="section__title">Why you'll love it</h2>
+    <p class="section__lead">A quiet, focused word game built to teach as you play.</p>
+
+    <div class="features">
+      <article class="feature">
+        <div class="feature__icon">🖼️</div>
+        <h3>Pictures &amp; questions</h3>
+        <p>Most clues are knowledge questions and definitions across science, history, geography, nature and sports — woven with image clues: identify a flag, a face, a landmark, a painting or an animal from a real photo.</p>
+      </article>
+
+      <article class="feature">
+        <div class="feature__icon">🌍</div>
+        <h3>12 languages</h3>
+        <p>Arabic, Chinese, English, French, Hindi, Indonesian, Italian, Japanese, Portuguese, Russian, Spanish and Turkish — each with 24 themed packs and its own progress and points.</p>
+      </article>
+
+      <article class="feature">
+        <div class="feature__icon">⚡</div>
+        <h3>Points &amp; mini-games</h3>
+        <p>Spend points on three tiers of hint when you're stuck. Running low? Win them back in quick mini-games — tic-tac-toe, rock-paper-scissors, dice, three cards, coin flip and higher-or-lower.</p>
+      </article>
+
+      <article class="feature">
+        <div class="feature__icon">🔒</div>
+        <h3>Private by design</h3>
+        <p>No network requests, no permissions, no analytics, no ads. Nothing ever leaves your device — your progress lives in a single local file.</p>
+      </article>
+
+      <article class="feature">
+        <div class="feature__icon">📚</div>
+        <h3>Learn while you play</h3>
+        <p>Every answer is a real word, name, place or fact worth knowing. Finish a language and you've met hundreds of figures, flags, landmarks and ideas.</p>
+      </article>
+
+      <article class="feature">
+        <div class="feature__icon">📈</div>
+        <h3>Grows with you</h3>
+        <p>24 packs per language ramp from easy starters to harder vocabulary and tougher trivia. The letter bank shows only the letters you actually need — never noise.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ───────── Screenshots ───────── -->
+  <section class="section section--alt" id="screens">
+    <h2 class="section__title">Take a look</h2>
+    <p class="section__lead">Tap any screen to enlarge.</p>
+
+    <div class="shots" id="shots">
+      <figure class="shot"><img src="screenshots/2-play.jpeg" alt="Home screen" loading="lazy" /><figcaption>Home</figcaption></figure>
+      <figure class="shot"><img src="screenshots/1-languages.jpeg" alt="Language picker with 12 languages" loading="lazy" /><figcaption>12 languages</figcaption></figure>
+      <figure class="shot"><img src="screenshots/3-packs.jpeg" alt="Themed pack grid" loading="lazy" /><figcaption>Themed packs</figcaption></figure>
+      <figure class="shot"><img src="screenshots/4-levels.jpeg" alt="Level list within a pack" loading="lazy" /><figcaption>Levels</figcaption></figure>
+      <figure class="shot"><img src="screenshots/5-level.jpeg" alt="A crossword grid in progress" loading="lazy" /><figcaption>Solve the grid</figcaption></figure>
+      <figure class="shot"><img src="screenshots/6-question.jpeg" alt="A knowledge question clue" loading="lazy" /><figcaption>Question clues</figcaption></figure>
+      <figure class="shot"><img src="screenshots/7-mini-games.jpeg" alt="Mini-games shelf" loading="lazy" /><figcaption>Mini-games</figcaption></figure>
+      <figure class="shot"><img src="screenshots/8-tik-tak-toe.jpeg" alt="Tic-tac-toe mini-game" loading="lazy" /><figcaption>Tic-tac-toe</figcaption></figure>
+      <figure class="shot"><img src="screenshots/9-rock-paper.jpeg" alt="Rock paper scissors mini-game" loading="lazy" /><figcaption>Rock paper scissors</figcaption></figure>
+      <figure class="shot"><img src="screenshots/10-coin-flip.jpeg" alt="Coin flip mini-game" loading="lazy" /><figcaption>Coin flip</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- ───────── Languages ───────── -->
+  <section class="section" id="languages">
+    <h2 class="section__title">Play in your language</h2>
+    <p class="section__lead">Twelve fully self-contained languages, each with its own packs and progress.</p>
+
+    <ul class="langs">
+      <li><span class="langs__flag">🇸🇦</span> Arabic</li>
+      <li><span class="langs__flag">🇨🇳</span> Chinese</li>
+      <li><span class="langs__flag">🇬🇧</span> English</li>
+      <li><span class="langs__flag">🇫🇷</span> French</li>
+      <li><span class="langs__flag">🇮🇳</span> Hindi</li>
+      <li><span class="langs__flag">🇮🇩</span> Indonesian</li>
+      <li><span class="langs__flag">🇮🇹</span> Italian</li>
+      <li><span class="langs__flag">🇯🇵</span> Japanese</li>
+      <li><span class="langs__flag">🇵🇹</span> Portuguese</li>
+      <li><span class="langs__flag">🇷🇺</span> Russian</li>
+      <li><span class="langs__flag">🇪🇸</span> Spanish</li>
+      <li><span class="langs__flag">🇹🇷</span> Turkish</li>
+    </ul>
+  </section>
+
+  <!-- ───────── Privacy highlight ───────── -->
+  <section class="section section--privacy" id="privacy">
+    <h2 class="section__title">Privacy by design</h2>
+    <p class="section__lead">Crossify101 collects nothing. Truly nothing.</p>
+
+    <div class="privacy-grid">
+      <div class="privacy-card"><strong>Zero network</strong><span>The app has no HTTP stack — it can't phone home.</span></div>
+      <div class="privacy-card"><strong>Zero permissions</strong><span>No camera, mic, location, contacts or storage.</span></div>
+      <div class="privacy-card"><strong>Zero tracking</strong><span>No analytics, ads, crash or attribution SDKs.</span></div>
+      <div class="privacy-card"><strong>On-device only</strong><span>All progress lives in one local, sandboxed file.</span></div>
+    </div>
+
+    <p class="privacy-link">
+      Read the full <a href="privacy.html">Privacy Policy</a>.
+    </p>
+  </section>
+
+  <!-- ───────── Download CTA ───────── -->
+  <section class="cta" id="get">
+    <img src="logo.svg" alt="" class="cta__mark" width="84" height="84" />
+    <h2>Pick a language and play.</h2>
+    <p>Free, offline, and quietly respectful of your attention and your data.</p>
+    <div class="store-badges store-badges--center">
+      <a class="badge badge--apple" href="https://apps.apple.com/app/crossify101/id0000000000"
+         target="_blank" rel="noopener" aria-label="Download on the App Store">
+        <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+          <path fill="currentColor" d="M16.365 1.43c0 1.14-.42 2.21-1.18 3.02-.83.9-2.18 1.6-3.32 1.5-.14-1.1.45-2.27 1.16-3.04.8-.86 2.2-1.5 3.34-1.48zM20.6 17.06c-.55 1.27-.82 1.84-1.53 2.96-.99 1.56-2.39 3.5-4.12 3.51-1.54.02-1.93-1-4.02-.99-2.09.01-2.52 1.01-4.06.99-1.73-.02-3.05-1.77-4.04-3.33C-.07 16.04-.3 10.9 1.41 8.18c1.06-1.69 2.73-2.68 4.3-2.68 1.6 0 2.61 1.01 3.93 1.01 1.28 0 2.06-1.01 3.91-1.01 1.4 0 2.88.76 3.94 2.08-3.46 1.9-2.9 6.84.11 8.48z"/>
+        </svg>
+        <span class="badge__text"><small>Download on the</small><strong>App Store</strong></span>
+      </a>
+      <span class="badge badge--play badge--soon" role="img" aria-label="Coming soon on Google Play">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+          <path fill="#EA4335" d="M3.6 2.3 13 11.7l2.6-2.6L4.9 1.7c-.5-.3-1-.1-1.3.6z"/>
+          <path fill="#34A853" d="M3.6 21.7c.3.7.8.9 1.3.6l10.7-7.4L13 12.3z"/>
+          <path fill="#4285F4" d="M19.6 10.1 16.7 8.4 13.8 11.3l2.9 2.9 2.9-1.7c1-.6 1-1.8 0-2.4z"/>
+          <path fill="#FBBC04" d="M3.6 2.3c-.1.2-.1.4-.1.7v18c0 .3 0 .5.1.7L13 12.3 3.6 2.3z"/>
+        </svg>
+        <span class="badge__text"><small>Coming soon on</small><strong>Google Play</strong></span>
+      </span>
+    </div>
+  </section>
+
+  <!-- ───────── Footer ───────── -->
+  <footer class="site-footer">
+    <div class="site-footer__brand">
+      <img src="logo.svg" alt="" width="32" height="32" />
+      <span>Crossify<span class="brand__accent">101</span></span>
+    </div>
+    <nav class="site-footer__links" aria-label="Footer">
+      <a href="#features">Features</a>
+      <a href="#screens">Screenshots</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="mailto:mourad.ghafiri38@gmail.com">Support</a>
+    </nav>
+    <p class="site-footer__copy">© 2026 Mourad Ghafiri. All rights reserved.</p>
+  </footer>
+
+  <!-- ───────── Lightbox ───────── -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Screenshot viewer">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous">&#8249;</button>
+    <img class="lightbox__img" id="lightboxImg" src="" alt="" />
+    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next">&#8250;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

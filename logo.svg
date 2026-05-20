@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E07A5F"/>
+      <stop offset="1" stop-color="#B85A3F"/>
+    </linearGradient>
+    <linearGradient id="hi" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F4B860"/>
+      <stop offset="1" stop-color="#E07A5F"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Outer rounded square: terracotta gradient -->
+  <rect width="512" height="512" rx="104" ry="104" fill="url(#bg)"/>
+
+  <!-- Inner cream panel that frames the crossword -->
+  <rect x="56" y="56" width="400" height="400" rx="64" ry="64" fill="#FBF7F1" filter="url(#soft)"/>
+
+  <!-- 3x3 mini crossword grid: cells 104x104, gap 12, total 3*104+2*12 = 336, centered at (88, 88) -->
+  <!-- Cell (col, row): x = 88 + col*116, y = 88 + row*116 -->
+
+  <!-- Row 0: D L D -->
+  <rect x="88"  y="88"  width="104" height="104" rx="18" ry="18" fill="#1A1310"/>
+  <rect x="204" y="88"  width="104" height="104" rx="18" ry="18" fill="#FFF8EE" stroke="#1A1310" stroke-width="3"/>
+  <rect x="320" y="88"  width="104" height="104" rx="18" ry="18" fill="#1A1310"/>
+
+  <!-- Row 1 (center): L H L -->
+  <rect x="88"  y="204" width="104" height="104" rx="18" ry="18" fill="#FFF8EE" stroke="#1A1310" stroke-width="3"/>
+  <rect x="204" y="204" width="104" height="104" rx="18" ry="18" fill="url(#hi)" stroke="#1A1310" stroke-width="3"/>
+  <rect x="320" y="204" width="104" height="104" rx="18" ry="18" fill="#FFF8EE" stroke="#1A1310" stroke-width="3"/>
+
+  <!-- Row 2: D L D -->
+  <rect x="88"  y="320" width="104" height="104" rx="18" ry="18" fill="#1A1310"/>
+  <rect x="204" y="320" width="104" height="104" rx="18" ry="18" fill="#FFF8EE" stroke="#1A1310" stroke-width="3"/>
+  <rect x="320" y="320" width="104" height="104" rx="18" ry="18" fill="#1A1310"/>
+</svg>
