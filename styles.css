@@ -189,27 +189,8 @@ img { max-width: 100%; display: block; }
 .badge__text { display: flex; flex-direction: column; line-height: 1.05; }
 .badge__text small { font-size: 0.66rem; opacity: 0.85; font-weight: 600; }
 .badge__text strong { font-size: 1.12rem; font-weight: 800; }
-.badge--apple { color: #fff; }
-.badge--soon {
-  background: #efe6db;
-  color: var(--espresso);
-  cursor: default;
-  position: relative;
-  opacity: 0.95;
-}
-.badge--soon:hover { transform: none; box-shadow: var(--shadow-sm); }
-.badge--soon::after {
-  content: "Android in progress";
-  position: absolute;
-  top: -10px; right: -8px;
-  background: var(--gold);
-  color: var(--espresso-dark);
-  font-size: 0.6rem;
-  font-weight: 900;
-  padding: 3px 8px;
-  border-radius: 999px;
-  white-space: nowrap;
-}
+.badge--apple,
+.badge--play { color: #fff; }
 
 /* ───────── Sections ───────── */
 .section {

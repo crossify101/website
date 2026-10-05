@@ -11,7 +11,7 @@ Crosswords that mix **picture clues** and **knowledge questions**. No ads. No in
 <br/>
 
 ![Platform](https://img.shields.io/badge/iOS-App%20Store-000000?logo=apple&logoColor=white)
-![Android](https://img.shields.io/badge/Android-Coming%20Soon-3DDC84?logo=android&logoColor=white)
+![Android](https://img.shields.io/badge/Android-Google%20Play-3DDC84?logo=android&logoColor=white)
 ![Languages](https://img.shields.io/badge/Languages-12-E07A5F)
 ![Tracking](https://img.shields.io/badge/Tracking-None-2C1F18)
 ![Works](https://img.shields.io/badge/Works-Offline-F4B860)
@@ -23,7 +23,9 @@ Crosswords that mix **picture clues** and **knowledge questions**. No ads. No in
   <img src="https://img.shields.io/badge/Download%20on%20the-App%20Store-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download on the App Store" height="44" />
 </a>
 &nbsp;
-<img src="https://img.shields.io/badge/Coming%20soon%20on-Google%20Play-555555?style=for-the-badge&logo=googleplay&logoColor=white" alt="Coming soon on Google Play" height="44" />
+<a href="https://play.google.com/store/apps/details?id=com.crossify101.crossify101">
+  <img src="https://img.shields.io/badge/Get%20it%20on-Google%20Play-000000?style=for-the-badge&logo=googleplay&logoColor=white" alt="Get it on Google Play" height="44" />
+</a>
 
 </div>
 
@@ -120,13 +122,15 @@ Read the full [Privacy Policy](privacy.html).
   <img src="https://img.shields.io/badge/Download%20on%20the-App%20Store-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download on the App Store" height="44" />
 </a>
 &nbsp;
-<img src="https://img.shields.io/badge/Coming%20soon%20on-Google%20Play-555555?style=for-the-badge&logo=googleplay&logoColor=white" alt="Coming soon on Google Play" height="44" />
+<a href="https://play.google.com/store/apps/details?id=com.crossify101.crossify101">
+  <img src="https://img.shields.io/badge/Get%20it%20on-Google%20Play-000000?style=for-the-badge&logo=googleplay&logoColor=white" alt="Get it on Google Play" height="44" />
+</a>
 
 <sub>Free • Rated 4+ • Works fully offline</sub>
 
 </div>
 
-> **Note:** the App Store link points to the real listing (App Apple ID `6771224286`). It will go live once Apple approves the app.
+> Crossify101 is available now on both the **App Store** (iOS) and **Google Play** (Android).
 
 ---
 
