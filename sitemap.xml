@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://crossify101.com/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <image:image><image:loc>https://crossify101.com/screenshots/2-play.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://crossify101.com/screenshots/1-languages.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://crossify101.com/screenshots/3-packs.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://crossify101.com/screenshots/4-levels.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://crossify101.com/screenshots/5-level.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://crossify101.com/screenshots/6-question.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://crossify101.com/screenshots/7-mini-games.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://crossify101.com/screenshots/8-tik-tak-toe.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://crossify101.com/screenshots/9-rock-paper.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://crossify101.com/screenshots/10-coin-flip.jpeg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://crossify101.com/privacy.html</loc>
+    <lastmod>2026-05-20</lastmod>
+  </url>
+</urlset>

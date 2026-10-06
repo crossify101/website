@@ -174,6 +174,16 @@ p { text-wrap: pretty; }
   margin-bottom: 18px;
 }
 
+.hero__subtitle {
+  display: block;
+  margin-top: 12px;
+  font-size: clamp(1.3rem, 2.6vw, 1.7rem);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0;
+  color: var(--espresso);
+}
+
 .hero__tagline {
   font-size: clamp(1.05rem, 2.2vw, 1.3rem);
   color: var(--espresso);
@@ -422,6 +432,52 @@ p { text-wrap: pretty; }
 .privacy-card span { color: #eaddd2; font-weight: 500; }
 .privacy-link { text-align: center; margin-top: 30px; font-weight: 700; }
 .privacy-link a { color: var(--gold); }
+
+/* ───────── FAQ ───────── */
+.faq {
+  display: grid;
+  gap: 12px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+.faq__item {
+  background: var(--card);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+.faq__item summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 22px;
+  border-radius: var(--radius-md);
+  font-size: 1.1rem;
+  font-weight: 800;
+  line-height: 1.35;
+  list-style: none;
+  cursor: pointer;
+}
+.faq__item summary::-webkit-details-marker { display: none; }
+.faq__item summary:hover { color: var(--terracotta-ink); }
+.faq__item summary svg {
+  flex: none;
+  width: 22px; height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.25;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform .2s var(--ease-out);
+}
+.faq__item[open] summary svg { transform: rotate(180deg); }
+.faq__item p {
+  padding: 0 22px 20px;
+  color: var(--muted);
+  font-weight: 500;
+  max-width: 68ch;
+}
 
 /* ───────── CTA ───────── */
 .cta {
