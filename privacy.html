@@ -7,17 +7,18 @@
   <meta name="description" content="Crossify101 collects no data. No network requests, no permissions, no analytics, no ads. All progress stays on your device." />
   <meta name="theme-color" content="#E07A5F" />
   <meta name="robots" content="index, follow" />
+  <meta name="color-scheme" content="light" />
 
   <link rel="icon" type="image/svg+xml" href="logo.svg" />
-  <link rel="apple-touch-icon" href="logo.svg" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400..900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <style>
     /* Page-specific layout for the legal copy */
     .legal {
-      max-width: 760px;
+      max-width: 720px;
       margin: 0 auto;
       padding: clamp(36px, 7vw, 72px) clamp(16px, 4vw, 40px) 90px;
     }
@@ -34,14 +35,13 @@
       margin: 34px 0 10px;
       color: var(--terracotta-dark);
     }
-    .legal p { margin-bottom: 14px; }
+    .legal p { margin-bottom: 14px; font-size: 1.0625rem; }
     .legal ul { margin: 0 0 14px 1.2em; }
     .legal li { margin-bottom: 8px; font-weight: 500; }
     .legal strong { color: var(--espresso); }
     .legal .callout {
       background: var(--card);
-      border: 1px solid rgba(44,31,24,0.08);
-      border-left: 5px solid var(--terracotta);
+      border: 1px solid rgba(224, 122, 95, 0.4);
       border-radius: var(--radius-md);
       padding: 20px 24px;
       box-shadow: var(--shadow-sm);
@@ -59,13 +59,18 @@
 </head>
 <body>
 
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="Crossify101 home">
       <img src="logo.svg" alt="" class="brand__mark" width="40" height="40" />
       <span class="brand__name">Crossify<span class="brand__accent">101</span></span>
     </a>
     <nav class="nav" aria-label="Primary">
-      <ul class="nav__menu" style="display:flex">
+      <button class="nav__toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="navMenu">
         <li><a href="index.html">Home</a></li>
         <li><a href="index.html#features">Features</a></li>
         <li><a href="mailto:mourad.ghafiri38@gmail.com" class="nav__cta">Contact</a></li>
@@ -73,7 +78,7 @@
     </nav>
   </header>
 
-  <main class="legal">
+  <main class="legal" id="main">
     <a class="back-home" href="index.html">&larr; Back to home</a>
 
     <h1>Privacy Policy</h1>
@@ -168,5 +173,6 @@
     <p class="site-footer__copy">© 2026 Mourad Ghafiri. All rights reserved.</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>

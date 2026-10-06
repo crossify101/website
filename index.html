@@ -6,6 +6,7 @@
   <title>Crossify101 — Offline word puzzles in 12 languages</title>
   <meta name="description" content="Crossify101 is an offline crossword game that grows your vocabulary and cultural knowledge through picture clues and knowledge questions. 12 languages, 24 packs each. No ads, no internet, no tracking." />
   <meta name="theme-color" content="#E07A5F" />
+  <meta name="color-scheme" content="light" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Crossify101 — Offline word puzzles in 12 languages" />
@@ -14,13 +15,15 @@
   <meta property="og:image" content="screenshots/2-play.jpeg" />
 
   <link rel="icon" type="image/svg+xml" href="logo.svg" />
-  <link rel="apple-touch-icon" href="logo.svg" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400..900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
 
   <!-- ───────── Header ───────── -->
   <header class="site-header" id="top">
@@ -30,7 +33,7 @@
     </a>
 
     <nav class="nav" aria-label="Primary">
-      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+      <button class="nav__toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav__menu" id="navMenu">
@@ -43,10 +46,11 @@
     </nav>
   </header>
 
+  <main id="main">
+
   <!-- ───────── Hero ───────── -->
   <section class="hero">
     <div class="hero__copy">
-      <span class="pill">⚡ Vocabulary &amp; culture, offline</span>
       <h1 class="hero__title">Crossify<span class="brand__accent">101</span></h1>
       <p class="hero__tagline">
         An educational journey to grow your vocabulary and broaden your cultural horizons —
@@ -82,7 +86,11 @@
 
     <div class="hero__device">
       <div class="device">
-        <img src="screenshots/2-play.jpeg" alt="Crossify101 home screen with the Play button" loading="eager" />
+        <img src="screenshots/thumbs/2-play.webp"
+             srcset="screenshots/thumbs/2-play.webp 640w, screenshots/2-play.jpeg 1284w"
+             sizes="(max-width: 860px) 236px, 276px"
+             width="1284" height="2778" fetchpriority="high"
+             alt="Crossify101 home screen with the Play button" />
       </div>
     </div>
   </section>
@@ -94,37 +102,37 @@
 
     <div class="features">
       <article class="feature">
-        <div class="feature__icon">🖼️</div>
+        <div class="feature__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="9.8" r="1.8"/><path d="m21 15.5-4.6-4.6a1.5 1.5 0 0 0-2.1 0L5 20.4"/></svg></div>
         <h3>Pictures &amp; questions</h3>
         <p>Most clues are knowledge questions and definitions across science, history, geography, nature and sports — woven with image clues: identify a flag, a face, a landmark, a painting or an animal from a real photo.</p>
       </article>
 
       <article class="feature">
-        <div class="feature__icon">🌍</div>
+        <div class="feature__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg></div>
         <h3>12 languages</h3>
         <p>Arabic, Chinese, English, French, Hindi, Indonesian, Italian, Japanese, Portuguese, Russian, Spanish and Turkish — each with 24 themed packs and its own progress and points.</p>
       </article>
 
       <article class="feature">
-        <div class="feature__icon">⚡</div>
+        <div class="feature__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2.5 4.5 13.5H12l-1 8 8.5-11H12l1-8z"/></svg></div>
         <h3>Points &amp; mini-games</h3>
         <p>Spend points on three tiers of hint when you're stuck. Running low? Win them back in quick mini-games — tic-tac-toe, rock-paper-scissors, dice, three cards, coin flip and higher-or-lower.</p>
       </article>
 
       <article class="feature">
-        <div class="feature__icon">🔒</div>
+        <div class="feature__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4.5" y="10.5" width="15" height="10.5" rx="2.5"/><path d="M8 10.5v-3a4 4 0 0 1 8 0v3"/><path d="M12 14.8v2.4"/></svg></div>
         <h3>Private by design</h3>
         <p>No network requests, no permissions, no analytics, no ads. Nothing ever leaves your device — your progress lives in a single local file.</p>
       </article>
 
       <article class="feature">
-        <div class="feature__icon">📚</div>
+        <div class="feature__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6.5C10.3 5.2 8 4.5 5 4.5H3.5v14H5c3 0 5.3.7 7 2 1.7-1.3 4-2 7-2h1.5v-14H19c-3 0-5.3.7-7 2z"/><path d="M12 6.5v14"/></svg></div>
         <h3>Learn while you play</h3>
         <p>Every answer is a real word, name, place or fact worth knowing. Finish a language and you've met hundreds of figures, flags, landmarks and ideas.</p>
       </article>
 
       <article class="feature">
-        <div class="feature__icon">📈</div>
+        <div class="feature__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3.5 17.5 5.5-5.5 4 4 7.5-7.5"/><path d="M15 8.5h5.5V14"/></svg></div>
         <h3>Grows with you</h3>
         <p>24 packs per language ramp from easy starters to harder vocabulary and tougher trivia. The letter bank shows only the letters you actually need — never noise.</p>
       </article>
@@ -134,19 +142,24 @@
   <!-- ───────── Screenshots ───────── -->
   <section class="section section--alt" id="screens">
     <h2 class="section__title">Take a look</h2>
-    <p class="section__lead">Tap any screen to enlarge.</p>
+    <p class="section__lead">Tap or click any screen to enlarge.</p>
 
     <div class="shots" id="shots">
-      <figure class="shot"><img src="screenshots/2-play.jpeg" alt="Home screen" loading="lazy" /><figcaption>Home</figcaption></figure>
-      <figure class="shot"><img src="screenshots/1-languages.jpeg" alt="Language picker with 12 languages" loading="lazy" /><figcaption>12 languages</figcaption></figure>
-      <figure class="shot"><img src="screenshots/3-packs.jpeg" alt="Themed pack grid" loading="lazy" /><figcaption>Themed packs</figcaption></figure>
-      <figure class="shot"><img src="screenshots/4-levels.jpeg" alt="Level list within a pack" loading="lazy" /><figcaption>Levels</figcaption></figure>
-      <figure class="shot"><img src="screenshots/5-level.jpeg" alt="A crossword grid in progress" loading="lazy" /><figcaption>Solve the grid</figcaption></figure>
-      <figure class="shot"><img src="screenshots/6-question.jpeg" alt="A knowledge question clue" loading="lazy" /><figcaption>Question clues</figcaption></figure>
-      <figure class="shot"><img src="screenshots/7-mini-games.jpeg" alt="Mini-games shelf" loading="lazy" /><figcaption>Mini-games</figcaption></figure>
-      <figure class="shot"><img src="screenshots/8-tik-tak-toe.jpeg" alt="Tic-tac-toe mini-game" loading="lazy" /><figcaption>Tic-tac-toe</figcaption></figure>
-      <figure class="shot"><img src="screenshots/9-rock-paper.jpeg" alt="Rock paper scissors mini-game" loading="lazy" /><figcaption>Rock paper scissors</figcaption></figure>
-      <figure class="shot"><img src="screenshots/10-coin-flip.jpeg" alt="Coin flip mini-game" loading="lazy" /><figcaption>Coin flip</figcaption></figure>
+      <figure class="shot"><button class="shot__open" type="button" aria-label="Enlarge: Home screen"><img src="screenshots/thumbs/2-play.webp" srcset="screenshots/thumbs/2-play.webp 640w, screenshots/2-play.jpeg 1284w" sizes="(max-width: 460px) 180px, 230px" width="1284" height="2778" data-full="screenshots/2-play.jpeg" alt="Home screen" loading="lazy" /></button><figcaption>Home</figcaption></figure>
+      <figure class="shot"><button class="shot__open" type="button" aria-label="Enlarge: Language picker with 12 languages"><img src="screenshots/thumbs/1-languages.webp" srcset="screenshots/thumbs/1-languages.webp 640w, screenshots/1-languages.jpeg 1284w" sizes="(max-width: 460px) 180px, 230px" width="1284" height="2778" data-full="screenshots/1-languages.jpeg" alt="Language picker with 12 languages" loading="lazy" /></button><figcaption>12 languages</figcaption></figure>
+      <figure class="shot"><button class="shot__open" type="button" aria-label="Enlarge: Themed pack grid"><img src="screenshots/thumbs/3-packs.webp" srcset="screenshots/thumbs/3-packs.webp 640w, screenshots/3-packs.jpeg 1284w" sizes="(max-width: 460px) 180px, 230px" width="1284" height="2778" data-full="screenshots/3-packs.jpeg" alt="Themed pack grid" loading="lazy" /></button><figcaption>Themed packs</figcaption></figure>
+      <figure class="shot"><button class="shot__open" type="button" aria-label="Enlarge: Level list within a pack"><img src="screenshots/thumbs/4-levels.webp" srcset="screenshots/thumbs/4-levels.webp 640w, screenshots/4-levels.jpeg 1284w" sizes="(max-width: 460px) 180px, 230px" width="1284" height="2778" data-full="screenshots/4-levels.jpeg" alt="Level list within a pack" loading="lazy" /></button><figcaption>Levels</figcaption></figure>
+      <figure class="shot"><button class="shot__open" type="button" aria-label="Enlarge: A crossword grid in progress"><img src="screenshots/thumbs/5-level.webp" srcset="screenshots/thumbs/5-level.webp 640w, screenshots/5-level.jpeg 1284w" sizes="(max-width: 460px) 180px, 230px" width="1284" height="2778" data-full="screenshots/5-level.jpeg" alt="A crossword grid in progress" loading="lazy" /></button><figcaption>Solve the grid</figcaption></figure>
+      <figure class="shot"><button class="shot__open" type="button" aria-label="Enlarge: A knowledge question clue"><img src="screenshots/thumbs/6-question.webp" srcset="screenshots/thumbs/6-question.webp 640w, screenshots/6-question.jpeg 1284w" sizes="(max-width: 460px) 180px, 230px" width="1284" height="2778" data-full="screenshots/6-question.jpeg" alt="A knowledge question clue" loading="lazy" /></button><figcaption>Question clues</figcaption></figure>
+      <figure class="shot"><button class="shot__open" type="button" aria-label="Enlarge: Mini-games shelf"><img src="screenshots/thumbs/7-mini-games.webp" srcset="screenshots/thumbs/7-mini-games.webp 640w, screenshots/7-mini-games.jpeg 1284w" sizes="(max-width: 460px) 180px, 230px" width="1284" height="2778" data-full="screenshots/7-mini-games.jpeg" alt="Mini-games shelf" loading="lazy" /></button><figcaption>Mini-games</figcaption></figure>
+      <figure class="shot"><button class="shot__open" type="button" aria-label="Enlarge: Tic-tac-toe mini-game"><img src="screenshots/thumbs/8-tik-tak-toe.webp" srcset="screenshots/thumbs/8-tik-tak-toe.webp 640w, screenshots/8-tik-tak-toe.jpeg 1284w" sizes="(max-width: 460px) 180px, 230px" width="1284" height="2778" data-full="screenshots/8-tik-tak-toe.jpeg" alt="Tic-tac-toe mini-game" loading="lazy" /></button><figcaption>Tic-tac-toe</figcaption></figure>
+      <figure class="shot"><button class="shot__open" type="button" aria-label="Enlarge: Rock paper scissors mini-game"><img src="screenshots/thumbs/9-rock-paper.webp" srcset="screenshots/thumbs/9-rock-paper.webp 640w, screenshots/9-rock-paper.jpeg 1284w" sizes="(max-width: 460px) 180px, 230px" width="1284" height="2778" data-full="screenshots/9-rock-paper.jpeg" alt="Rock paper scissors mini-game" loading="lazy" /></button><figcaption>Rock paper scissors</figcaption></figure>
+      <figure class="shot"><button class="shot__open" type="button" aria-label="Enlarge: Coin flip mini-game"><img src="screenshots/thumbs/10-coin-flip.webp" srcset="screenshots/thumbs/10-coin-flip.webp 640w, screenshots/10-coin-flip.jpeg 1284w" sizes="(max-width: 460px) 180px, 230px" width="1284" height="2778" data-full="screenshots/10-coin-flip.jpeg" alt="Coin flip mini-game" loading="lazy" /></button><figcaption>Coin flip</figcaption></figure>
+    </div>
+
+    <div class="shots-nav" id="shotsNav" hidden>
+      <button class="icon-btn" id="shotsPrev" type="button" aria-controls="shots" aria-label="Scroll screenshots left"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14.5 6-6 6 6 6"/></svg></button>
+      <button class="icon-btn" id="shotsNext" type="button" aria-controls="shots" aria-label="Scroll screenshots right"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.5 6 6 6-6 6"/></svg></button>
     </div>
   </section>
 
@@ -156,18 +169,18 @@
     <p class="section__lead">Twelve fully self-contained languages, each with its own packs and progress.</p>
 
     <ul class="langs">
-      <li><span class="langs__flag">🇸🇦</span> Arabic</li>
-      <li><span class="langs__flag">🇨🇳</span> Chinese</li>
-      <li><span class="langs__flag">🇬🇧</span> English</li>
-      <li><span class="langs__flag">🇫🇷</span> French</li>
-      <li><span class="langs__flag">🇮🇳</span> Hindi</li>
-      <li><span class="langs__flag">🇮🇩</span> Indonesian</li>
-      <li><span class="langs__flag">🇮🇹</span> Italian</li>
-      <li><span class="langs__flag">🇯🇵</span> Japanese</li>
-      <li><span class="langs__flag">🇵🇹</span> Portuguese</li>
-      <li><span class="langs__flag">🇷🇺</span> Russian</li>
-      <li><span class="langs__flag">🇪🇸</span> Spanish</li>
-      <li><span class="langs__flag">🇹🇷</span> Turkish</li>
+      <li><span class="langs__flag" aria-hidden="true">🇸🇦</span><span class="langs__name"><span class="langs__native" lang="ar" dir="rtl">العربية</span><span class="langs__en">Arabic</span></span></li>
+      <li><span class="langs__flag" aria-hidden="true">🇨🇳</span><span class="langs__name"><span class="langs__native" lang="zh">中文</span><span class="langs__en">Chinese</span></span></li>
+      <li><span class="langs__flag" aria-hidden="true">🇬🇧</span><span class="langs__name"><span class="langs__native" lang="en">English</span><span class="langs__en">English</span></span></li>
+      <li><span class="langs__flag" aria-hidden="true">🇫🇷</span><span class="langs__name"><span class="langs__native" lang="fr">Français</span><span class="langs__en">French</span></span></li>
+      <li><span class="langs__flag" aria-hidden="true">🇮🇳</span><span class="langs__name"><span class="langs__native" lang="hi">हिन्दी</span><span class="langs__en">Hindi</span></span></li>
+      <li><span class="langs__flag" aria-hidden="true">🇮🇩</span><span class="langs__name"><span class="langs__native" lang="id">Bahasa Indonesia</span><span class="langs__en">Indonesian</span></span></li>
+      <li><span class="langs__flag" aria-hidden="true">🇮🇹</span><span class="langs__name"><span class="langs__native" lang="it">Italiano</span><span class="langs__en">Italian</span></span></li>
+      <li><span class="langs__flag" aria-hidden="true">🇯🇵</span><span class="langs__name"><span class="langs__native" lang="ja">日本語</span><span class="langs__en">Japanese</span></span></li>
+      <li><span class="langs__flag" aria-hidden="true">🇵🇹</span><span class="langs__name"><span class="langs__native" lang="pt">Português</span><span class="langs__en">Portuguese</span></span></li>
+      <li><span class="langs__flag" aria-hidden="true">🇷🇺</span><span class="langs__name"><span class="langs__native" lang="ru">Русский</span><span class="langs__en">Russian</span></span></li>
+      <li><span class="langs__flag" aria-hidden="true">🇪🇸</span><span class="langs__name"><span class="langs__native" lang="es">Español</span><span class="langs__en">Spanish</span></span></li>
+      <li><span class="langs__flag" aria-hidden="true">🇹🇷</span><span class="langs__name"><span class="langs__native" lang="tr">Türkçe</span><span class="langs__en">Turkish</span></span></li>
     </ul>
   </section>
 
@@ -214,6 +227,8 @@
     </div>
   </section>
 
+  </main>
+
   <!-- ───────── Footer ───────── -->
   <footer class="site-footer">
     <div class="site-footer__brand">
@@ -230,11 +245,19 @@
   </footer>
 
   <!-- ───────── Lightbox ───────── -->
-  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Screenshot viewer">
-    <button class="lightbox__close" id="lightboxClose" aria-label="Close">&times;</button>
-    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous">&#8249;</button>
-    <img class="lightbox__img" id="lightboxImg" src="" alt="" />
-    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next">&#8250;</button>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Screenshot viewer">
+    <button class="icon-btn icon-btn--dark lightbox__close" id="lightboxClose" type="button" aria-label="Close viewer">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg>
+    </button>
+    <div class="lightbox__bar">
+      <button class="icon-btn icon-btn--dark" id="lightboxPrev" type="button" aria-label="Previous screenshot">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14.5 6-6 6 6 6"/></svg>
+      </button>
+      <p class="lightbox__caption" id="lightboxCaption" aria-live="polite"></p>
+      <button class="icon-btn icon-btn--dark" id="lightboxNext" type="button" aria-label="Next screenshot">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.5 6 6 6-6 6"/></svg>
+      </button>
+    </div>
   </div>
 
   <script src="script.js"></script>
