@@ -136,7 +136,7 @@ Read the full [Privacy Policy](privacy.html).
 
 ## 📨 Contact
 
-Questions or feedback? Email **[mourad.ghafiri38@gmail.com](mailto:mourad.ghafiri38@gmail.com)**.
+Questions or feedback? Email **[contact@crossify101.com](mailto:contact@crossify101.com)**.
 
 <div align="center">
 <sub>© 2026 Mourad Ghafiri. All rights reserved.</sub>
